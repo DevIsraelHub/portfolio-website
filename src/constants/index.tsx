@@ -82,3 +82,26 @@ export const infoData = [
     text: address,
   },
 ]
+
+export const qualificationData = [
+  {
+    title: "Education",
+    data: [
+      {
+        university: "Example University",
+        qualification: "Bachelor of Science",
+        years: "2015 - 2018",
+      },
+      {
+        university: "Another University",
+        qualification: "Master of Arts",
+        years: "2019 - 2021",
+      },
+      {
+        university: "Yet Another University",
+        qualification: "Ph.D in Computer Science",
+        years: "2021 - 2025",
+      },
+    ]
+  }
+]
