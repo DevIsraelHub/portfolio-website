@@ -103,5 +103,25 @@ export const qualificationData = [
         years: "2021 - 2025",
       },
     ]
-  }
+  },
+  {
+    title: "Experience",
+    data: [
+      {
+        company: "ABC Inc.",
+        qualification: "Software Engineer",
+        years: "2018 - 2020",
+      },
+      {
+        company: "XYZ Corporation",
+        qualification: "Senior Developer",
+        years: "2020 - 2022",
+      },
+      {
+        company: "Tech Innovators",
+        qualification: "Lead Developer",
+        years: "2022 - Present",
+      },
+    ]
+  },
 ]
