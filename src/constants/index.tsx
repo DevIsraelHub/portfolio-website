@@ -1,7 +1,11 @@
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Calendar, Facebook, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, Twitter, User2, Youtube } from "lucide-react";
 
 
 export const siteOwner = "Example"
+export const phoneNumber = "+234 815 395 2231"
+export const email = "Example@gmail.com"
+export const address = "321 Blue Avenue NY, USA"
+
 export const site = {
   title: siteOwner,
   occupation: "Developer",
@@ -49,5 +53,32 @@ export const socialLink = [
     title: "Youtube",
     icon: <Youtube />,
     href: "/"
+  },
+]
+
+export const infoData = [
+  {
+    icon: <User2 size={20} />,
+    text: siteOwner,
+  },
+  {
+    icon: <PhoneCall size={20} />,
+    text: phoneNumber,
+  },
+  {
+    icon: <MailIcon size={20} />,
+    text: email,
+  },
+  {
+    icon: <Calendar size={20} />,
+    text: "Born on 10 mar, 1998",
+  },
+  {
+    icon: <GraduationCap size={20} />,
+    text: "Master on Computer Science",
+  },
+  {
+    icon: <HomeIcon size={20} />,
+    text: address,
   },
 ]
