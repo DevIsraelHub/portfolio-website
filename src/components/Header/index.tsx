@@ -31,12 +31,12 @@ const Header = () => {
           <div className="flex items-center gap-x-6">
             <NavLinks
               lineStyles="relative hover:text-primary transition-all"
-              classNames="hidden lg:flex gap-x-8 items-center"
+              classNames="hidden xl:flex gap-x-8 items-center"
               underLineStlyes="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
             <ThemeToggle />
             {/* Mobile Nav  */}
-            <div className="lg:hidden">
+            <div className="xl:hidden">
               <MobileNav />
             </div>
           </div>
