@@ -2,8 +2,9 @@ import Logo from "@/components/Logo"
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { AlignJustify } from "lucide-react"
 import React from 'react'
-import NavLinks from "./NavLinks"
 import Socials from "@/components/Socials"
+import Link from "next/link"
+import { NavItems } from "@/constants"
 
 const MobileNav = () => {
   return (
@@ -17,10 +18,17 @@ const MobileNav = () => {
             <SheetClose>
               <Logo />
             </SheetClose>
-            <NavLinks
-              classNames="flex flex-col items-center gap-y-6"
-              lineStyles="text-2xl hover:text-primary transition-all"
-            />
+            <div className="flex flex-col items-center justify-center gap-y-10">
+              {
+                NavItems.map((item, index) => (
+                  <SheetClose asChild>
+                    <Link href={item.href} className="text-2xl hover:text-primary transition-all">
+                      {item.name}
+                    </Link>
+                  </SheetClose>
+                ))
+              }
+            </div>
             <Socials classNames="flex gap-x-4" iconStyles="hover:text-primary text-2xl transition-all" />
           </div>
         </div>

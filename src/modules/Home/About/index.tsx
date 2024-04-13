@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className="flex-1">
             <Tabs defaultValue="personal">
-              <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+              <TabsList className="w-full dark:bg-secondary grid xl:grid-cols-3 xl:max-w-[520px] bg-secondary border dark:border-none">
                 <TabsTrigger
                   className="w-[162px] xl:w-auto"
                   value="personal">
@@ -56,7 +56,7 @@ const About = () => {
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {
                         infoData.map((item, index) => (
-                          <div key={index} className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                          <div key={index} className="flex items-center text-left gap-x-4">
                             <div className="text-primary">
                               {item.icon}
                             </div>

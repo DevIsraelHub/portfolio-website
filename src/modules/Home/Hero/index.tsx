@@ -62,7 +62,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className="hidden md:flex absolute left-2/4 bottom-36 xl:bottom-12 animate-bounce">
           <ChevronDown className="text-3xl text-primary" />
         </div>
       </div>
