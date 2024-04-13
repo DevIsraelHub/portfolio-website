@@ -1,9 +1,9 @@
 "use client";
 
+import React, { useState } from 'react';
+import { projectData } from "@/constants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { projectData } from "@/constants"
 import ProjectCard from "@/modules/Home/components/ProjectCard";
-import React, { useState } from 'react'
 
 const uniqueCategories = ["all projects", ...new Set(projectData.map((item) => item.category))];
 const page = () => {
