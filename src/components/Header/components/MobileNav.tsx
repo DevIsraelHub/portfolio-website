@@ -21,7 +21,7 @@ const MobileNav = () => {
             <div className="flex flex-col items-center justify-center gap-y-10">
               {
                 NavItems.map((item, index) => (
-                  <SheetClose asChild>
+                  <SheetClose key={index} asChild>
                     <Link href={item.href} className="text-2xl hover:text-primary transition-all">
                       {item.name}
                     </Link>
