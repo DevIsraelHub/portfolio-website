@@ -1,9 +1,21 @@
 import React from 'react'
+import Socials from "../Socials"
+import { siteOwner } from "@/constants"
 
 const Footer = () => {
   return (
-    <footer>
-      Footer
+    <footer className="bg-secondary py-12">
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center justify-between">
+          <Socials
+            classNames="flex gap-x-6 mx-auto xl:mx-0 mb-4"
+            iconStyles="text-primary dark:text-white/70 text-[20px] hover:text-muted-foreground dark:hover:text-primary transition-all"
+          />
+          <div className="text-muted-foreground">
+            Copyright &copy; {siteOwner}, All rights reserved.
+          </div>
+        </div>
+      </div>
     </footer>
   )
 }

@@ -1,9 +1,12 @@
+"use client";
+
 import React from 'react'
 import BannerImage from "../components/BannerImage";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { infoData, qualificationData, skillData } from "@/constants";
 import { Briefcase, GraduationCap } from "lucide-react";
 import Image from "next/image";
+import SkillsImages from "../components/SkillsImages";
 
 const About = () => {
   const getData = (arr: typeof qualificationData | typeof skillData, title: string) => {
@@ -159,13 +162,7 @@ const About = () => {
                       <div />
                       <div className="flex gap-x-8 justify-center xl:justify-start">
                         {getData(skillData, "tools")?.data.map((item: any, index) => (
-                          <Image
-                            height={48}
-                            width={48}
-                            src={item.imgPath}
-                            alt={"skills images"}
-                            priority
-                          />
+                          <SkillsImages key={index} item={item} />
                         ))}
                       </div>
                     </div>

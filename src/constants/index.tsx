@@ -182,3 +182,101 @@ export const serviceData = [
     description: "lorem ipsyum dolor sit amet cnnectuer endiplisisn elit, cdolomepa repllls"
   },
 ]
+
+export const projectData = [
+  {
+    image: "/work/3.png",
+    category: "react.js",
+    name: "Nexa Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/4.png",
+    category: "next.js",
+    name: "Solstics Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/2.png",
+    category: "next.js",
+    name: "Ecommerce Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/1.png",
+    category: "next.js",
+    name: "Admin Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "next.js",
+    name: "Commas Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/4.png",
+    category: "next.js",
+    name: "Nuella Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/4.png",
+    category: "next.js",
+    name: "Mangry Website",
+    descripiton: "Lorem, ipsum dolor sit amet consectetur fuest laborum libero. Message aut explicabo",
+    link: "/",
+    github: "/",
+  },
+]
+
+export const reviewData = [
+  {
+    avatar: "/reviews/avatar-1.png",
+    name: "Richard Thompson",
+    job: "Chef",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+  {
+    avatar: "/reviews/avatar-2.png",
+    name: "Evelyn Anderson",
+    job: "Interior Designer",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+  {
+    avatar: "/reviews/avatar-3.png",
+    name: "Mike Andrew",
+    job: "developer",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+  {
+    avatar: "/reviews/avatar-4.png",
+    name: "Emeka Jeff",
+    job: "Gamer",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+  {
+    avatar: "/reviews/avatar-5.png",
+    name: "Joel Benson",
+    job: "Seo Expert",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+  {
+    avatar: "/reviews/avatar-6.png",
+    name: "Mary Jessica",
+    job: "Fashionist",
+    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+  },
+]
