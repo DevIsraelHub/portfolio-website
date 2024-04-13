@@ -54,10 +54,10 @@ const Hero = () => {
               endCountNum={26}
               badgeText="Happy Clients"
             />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+            <div className="bg-primary w-[500px] h-[500px] bg-no-repeat rounded-full absolute -top-1 -right-2">
             </div>
             <BannerImage
-              classNames="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+              classNames=" w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
               imageSrc="/hero/developer.png"
             />
           </div>

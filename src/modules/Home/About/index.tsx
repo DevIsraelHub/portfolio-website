@@ -22,7 +22,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
             <BannerImage
-              classNames="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
+              classNames="bg-about_shape_light w-[505px] h-[505px] bg-no-repeat relative"
               imageSrc="/about/developer.png"
             />
           </div>
