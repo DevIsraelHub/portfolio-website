@@ -58,7 +58,7 @@ const Hero = () => {
             </div>
             <BannerImage
               classNames=" w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imageSrc="/hero/developer.png"
+              imageSrc="/hero/developer.jpg"
             />
           </div>
         </div>
