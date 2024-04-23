@@ -23,7 +23,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative">
             <BannerImage
               classNames="bg-about_shape_light w-[505px] h-[505px] bg-no-repeat relative"
-              imageSrc="/about/developer.jpg"
+              imageSrc="/about/developer.png"
             />
           </div>
           <div className="flex-1">

@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Web Developer</h2>
             <h1 className="h1">Hello, my name is Rodríguez collins
- </h1>
+            </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptatum provident aperiam accusantium dolorum autem aut aspernatur doloribus odit ipsam?
             </p>
@@ -59,7 +59,7 @@ const Hero = () => {
             </div>
             <BannerImage
               classNames=" w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imageSrc="/hero/developer.jpg"
+              imageSrc="/hero/developer.png"
             />
           </div>
         </div>
