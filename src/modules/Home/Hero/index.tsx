@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Web Developer</h2>
-            <h1 className="h1">Hello, my name is Rodríguez collins
+            <h1 className="h2 sm:h1">Hello, my name is Chioma Adande
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptatum provident aperiam accusantium dolorum autem aut aspernatur doloribus odit ipsam?
