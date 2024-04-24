@@ -1,9 +1,9 @@
 import { Blocks, Calendar, Facebook, GanttChartSquare, Gem, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, Twitter, User2, Youtube } from "lucide-react";
 
 
-export const siteOwner = "Rodríguez collins"
+export const siteOwner = "Chioma Adande"
 export const phoneNumber = "+234 815 395 2231"
-export const email = "Example@gmail.com"
+export const email = "chiomadande@gmail.com"
 export const address = "321 Blue Avenue NY, USA"
 
 export const site = {
