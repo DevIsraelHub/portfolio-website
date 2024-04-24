@@ -16,7 +16,7 @@ const Hero = () => {
             <h1 className="h2 sm:h1">Hello, my name is Chioma Adande
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptatum provident aperiam accusantium dolorum autem aut aspernatur doloribus odit ipsam?
+              I am a secondary school graduate. I am planning to study Computer Science at the university. I am particularly interested in Web development and Cyber security. I am currently taking online courses to gain knowledge about them and the programming languages they require.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Button asChild className="gap-x-2">
