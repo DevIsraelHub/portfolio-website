@@ -8,7 +8,7 @@ export const address = "321 Blue Avenue NY, USA"
 
 export const site = {
   title: siteOwner,
-  occupation: "Developer",
+  occupation: "Web Developer",
   description: `A portfolio website of ${siteOwner}`,
   url: "http://localhost:3000/"
 }
