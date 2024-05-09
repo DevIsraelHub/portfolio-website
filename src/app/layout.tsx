@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { site } from "@/constants";
+import NextTopLoader from "nextjs-toploader";
 import { Analytics } from "@vercel/analytics/react"
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
+        <NextTopLoader color="#2563eb" showSpinner={false} />
         <ThemeProvider
           attribute="class"
           defaultTheme="light">

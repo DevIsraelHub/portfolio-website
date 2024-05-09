@@ -1,10 +1,10 @@
 import { Blocks, Calendar, Facebook, GanttChartSquare, Gem, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, Twitter, User2, Youtube } from "lucide-react";
 
 
-export const siteOwner = "Chioma Adande"
-export const phoneNumber = "+234 815 395 2231"
-export const email = "chiomadande@gmail.com"
-export const address = "321 Blue Avenue NY, USA"
+export const siteOwner = "Samukelo Khathi"
+export const phoneNumber = "068 173 3492"
+export const email = "sbkhathi005@gmail.com"
+export const address = "KwaZulu-Natal, South Africa"
 
 export const site = {
   title: siteOwner,
@@ -39,21 +39,21 @@ export const socialLink = [
     icon: <Instagram />,
     href: "/"
   },
-  {
-    title: "X",
-    icon: <Twitter />,
-    href: "/"
-  },
+  // {
+  //   title: "X",
+  //   icon: <Twitter />,
+  //   href: "/"
+  // },
   {
     title: "LinkedIn",
     icon: <Linkedin />,
-    href: "/"
+    href: "https://www.linkedin.com/in/samukelo-khathi-b3830a2aa/"
   },
-  {
-    title: "Youtube",
-    icon: <Youtube />,
-    href: "/"
-  },
+  // {
+  //   title: "Youtube",
+  //   icon: <Youtube />,
+  //   href: "/"
+  // },
 ]
 
 export const infoData = [

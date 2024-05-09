@@ -14,7 +14,7 @@ const Service = () => {
             serviceData.map((item, index) => (
               <Card key={index} className="w-full max-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative">
                 <CardHeader className="text-primary absolute -top-[60px]">
-                  <div className="w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center">
+                  <div className="w-[140px] h-[80px] bg-background flex justify-center items-center">
                     {item.icon}
                   </div>
                 </CardHeader>

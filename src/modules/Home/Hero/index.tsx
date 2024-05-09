@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from 'react';
 import BannerImage from "../components/BannerImage";
 import Badge from "../components/Badge";
+import { siteOwner } from "@/constants";
 
 const Hero = () => {
   return (
@@ -13,10 +14,10 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Web Developer</h2>
-            <h1 className="h2 sm:h1">Hello, my name is Chioma Adande
+            <h1 className="h1">Hello, my name is {siteOwner}
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I am a secondary school graduate. I am planning to study Computer Science at the university. I am particularly interested in Web development and Cyber security. I am currently taking online courses to gain knowledge about them and the programming languages they require.
+              I am skilled in building responsive and user-friendly web applications, also have rich experience in UI/UX design principles.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Button asChild className="gap-x-2">
@@ -55,11 +56,11 @@ const Hero = () => {
               endCountNum={26}
               badgeText="Happy Clients"
             />
-            <div className="bg-primary w-[500px] h-[500px] bg-no-repeat rounded-full absolute -top-1 -right-2">
+            <div className="w-[500px] overflow-hidden h-[500px] bg-no-repeat rounded-full absolute -top-1 -right-2">
             </div>
             <BannerImage
-              classNames=" w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imageSrc="/hero/developer.png"
+              classNames=" w-[510px] h-[510px] bg-no-repeat relative bg-bottom"
+              imageSrc="/hero/developer.jpeg"
             />
           </div>
         </div>
