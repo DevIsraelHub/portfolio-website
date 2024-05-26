@@ -51,7 +51,7 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">Unmatched Quality Service</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I Specialize in crafting intuitive website with cutting-edge technology, delivering dynamic and engaging user experience.
+                      I Specialize in crafting intuitive website, mobile apps and software with cutting-edge technology, delivering dynamic and engaging result.
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {
