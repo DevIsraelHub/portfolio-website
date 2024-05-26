@@ -17,7 +17,7 @@ const Hero = () => {
             <h1 className="h1">Hello, my name is {siteOwner}
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Hey, I&apos;m {siteOwner} an experienced software developer skilled in writing python code
+              Hey, I&apos;m an experienced and a degree holder software developer skilled in writing python code.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Button asChild className="gap-x-2">
