@@ -13,11 +13,11 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Flutter Developer</h2>
+            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Python Developer</h2>
             <h1 className="h1">Hello, my name is {siteOwner}
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I am skilled in building responsive and user-friendly web applications, also have rich experience in UI/UX design principles.
+              Hey, I&apos;m {siteOwner} an experienced software developer skilled in writing python code
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Button asChild className="gap-x-2">

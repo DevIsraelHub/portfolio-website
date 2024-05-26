@@ -10,7 +10,7 @@ export const address = "Lagos state, Nigeria"
 export const site = {
   title: siteOwner,
   occupation: "Flutter Developer",
-  description: `Hey, I'm ${siteOwner} an experienced Flutter developer`,
+  description: `Hey, I'm ${siteOwner} an experienced software developer skilled in writing python code`,
   url: "http://localhost:3000/"
 }
 
