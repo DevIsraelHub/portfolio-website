@@ -134,15 +134,17 @@ export const skillData = [
       {
         name: "HTML, CSS",
       },
-
       {
-        name: "Front-end Development",
+        name: "Javascript, Typescript",
       },
       {
-        name: "Javascript, PHP",
+        name: "Python, Node js",
       },
       {
-        name: "Back-end Development",
+        name: "Django, Mongodb",
+      },
+      {
+        name: "React js, Next js",
       },
 
     ]

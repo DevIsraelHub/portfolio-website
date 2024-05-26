@@ -143,10 +143,10 @@ const About = () => {
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
-                      <div>
+                      <div className="divide-y divide-borde">
                         {getData(skillData, "skills")?.data.map((item: any, index) => (
                           <div
-                            className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                            className="w-2/4 text-center py-3 xl:text-left mx-auto xl:mx-0"
                             key={index}
                           >
                             <p className="font-medium">{item.name}</p>
