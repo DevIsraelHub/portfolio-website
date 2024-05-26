@@ -41,7 +41,9 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
           {project.category}
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
-        <p className="text-muted-foreground text-lg">{project.descripiton}</p>
+        <p className="text-muted-foreground text-lg">
+          This {project.name} was carefully built by me with the latest technologies.
+        </p>
       </div>
     </Card>
   )

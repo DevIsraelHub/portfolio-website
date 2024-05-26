@@ -170,17 +170,17 @@ export const serviceData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
-    description: "lorem ipsyum dolor sit amet cnnectuer endiplisisn elit, cdolomepa repllls"
+    description: "Experienced in UI/UX designs with the use of figma software and other designing software like Adobe."
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Design",
-    description: "lorem ipsyum dolor sit amet cnnectuer endiplisisn elit, cdolomepa repllls"
+    title: "Web Development",
+    description: "Expert in web development. writing clean and neat code. Building modern looking website with the latest technologies"
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "App Development",
-    description: "lorem ipsyum dolor sit amet cnnectuer endiplisisn elit, cdolomepa repllls"
+    description: "Skilled in building fast and reliable mobile apps with Flutter."
   },
 ]
 
@@ -248,36 +248,36 @@ export const reviewData = [
     avatar: "/reviews/avatar-1.png",
     name: "Richard Thompson",
     job: "Chef",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. He transformed my outdated website into a modern masterpiece in no time. His attention to detail and commitment to delivering excellence sets him apart from the rest. I highly recommend him to anyone in need of top-notch web development services!`,
   },
   {
     avatar: "/reviews/avatar-2.png",
     name: "Evelyn Anderson",
     job: "Interior Designer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    review: `${siteOwner} did a commendable job on my website. While the delivery was slightly delayed, the quality of work and attention to detail were exceptional. I appreciate his dedication and expertise in bringing my vision to life.`,
   },
   {
     avatar: "/reviews/avatar-3.png",
     name: "Mike Andrew",
     job: "developer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    review: `${siteOwner} is an incredibly talented web develioper. His attention to detail and creative flair are unmatched. Working with Ejeh was a breeze, as he listened to my needs and provided expert guidance throughout the process. I highly recommend Ejeh for anyone looking to elevate their online presence.`,
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Emeka Jeff",
     job: "Gamer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. He transformed my outdated website into a modern masterpiece in no time. His attention to detail and commitment to delivering excellence sets him apart from the rest. I highly recommend him to anyone in need of top-notch web development services!`,
   },
-  {
-    avatar: "/reviews/avatar-5.png",
-    name: "Joel Benson",
-    job: "Seo Expert",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
-  },
+  // {
+  //   avatar: "/reviews/avatar-5.png",
+  //   name: "Joel Benson",
+  //   job: "Seo Expert",
+  //   review: `${siteOwner} did a commendable job on my website. While the delivery was slightly delayed, the quality of work and attention to detail were exceptional. I appreciate his dedication and expertise in bringing my vision to life.`,
+  // },
   {
     avatar: "/reviews/avatar-6.png",
     name: "Mary Jessica",
     job: "Fashionist",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    review: `${siteOwner} is an absolute genius! I approached him with a tight deadline for my project, and he not only met it but also delivered exceptional quality. His communication throughout the process was commendable, making the entire experience smooth and stress-free. Highly recommended!`,
   },
 ]
