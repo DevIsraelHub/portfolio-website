@@ -18,7 +18,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="max-w-[400px] mx-auto text-center xl:h-[400px] flex flex-col justify-center mb-12 xl:mb-0 items-center xl:items-start">
           <h2 className="section-title mx-auto text-center">Latest Projects</h2>
-          <p className="subtitle mb-8">This are some of the projects I've built and worked on</p>
+          <p className="subtitle mb-8">This are some of the projects I&apos;ve built and worked on</p>
           <Button asChild className="mx-auto">
             <Link href="/projects">
               All Projects
