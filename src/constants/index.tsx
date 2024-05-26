@@ -89,19 +89,14 @@ export const qualificationData = [
     title: "education",
     data: [
       {
-        university: "Example University",
-        role: "Bachelor of Science",
-        years: "2015 - 2018",
+        university: "Ado Ekiti state university",
+        role: "Bachelor of Applied Science - BSc",
+        years: "Dec 2017 - Nov 2022",
       },
       {
-        university: "Another University",
-        role: "Master of Arts",
-        years: "2019 - 2021",
-      },
-      {
-        university: "Yet Another University",
-        role: "Ph.D in Computer Science",
-        years: "2021 - 2025",
+        university: "Ekiti state university",
+        role: "BSc",
+        years: "Dec 2017 - Jun 2022",
       },
     ]
   },
@@ -109,19 +104,14 @@ export const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "ABC Inc.",
-        role: "Software Engineer",
-        years: "2018 - 2020",
+        company: "Freelance",
+        role: "Experience Python Developer",
+        years: "Aug 2023 - present",
       },
       {
-        company: "XYZ Corporation",
-        role: "Senior Developer",
-        years: "2020 - 2022",
-      },
-      {
-        company: "Tech Innovators",
-        role: "Lead Developer",
-        years: "2022 - Present",
+        company: "SWIFT NETWORKS LIMITED",
+        role: "Technical Support Specialist",
+        years: "Mar 2021 - Aug 2021",
       },
     ]
   },

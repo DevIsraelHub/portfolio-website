@@ -111,7 +111,7 @@ const About = () => {
                       <div className="flex gap-x-4 items-center text-[22px] text-primary">
                         <GraduationCap />
                         <h4 className="capitalize font-medium">
-                          {getData(qualificationData, "experience")?.title}
+                          {getData(qualificationData, "education")?.title}
                         </h4>
                       </div>
                       <div className="flex flex-col gap-y-8">
