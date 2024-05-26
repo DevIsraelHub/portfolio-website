@@ -59,7 +59,7 @@
 }
 
 .h1 {
-  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+  @apply text-4xl md:text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
 .h2 {
@@ -94,4 +94,8 @@
 
 .swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet {
   @apply bg-primary w-8 h-8;
+}
+
+.p-shadow {
+  @apply shadow-[5px_5px_0px_0px_rgba(37,99,235)];
 }

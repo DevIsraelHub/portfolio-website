@@ -1,15 +1,16 @@
-import { Blocks, Calendar, Facebook, GanttChartSquare, Gem, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, Twitter, User2, Youtube } from "lucide-react";
+import { Blocks, Calendar, GanttChartSquare, Gem, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, User2 } from "lucide-react";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
-export const siteOwner = "Samukelo Khathi"
-export const phoneNumber = "068 173 3492"
-export const email = "sbkhathi005@gmail.com"
-export const address = "KwaZulu-Natal, South Africa"
+export const siteOwner = "Francis Victoria"
+export const phoneNumber = "+234 811 084 7104"
+export const email = "victoriafrancis885@gmail.com"
+export const address = "Lagos state, Nigeria"
 
 export const site = {
   title: siteOwner,
-  occupation: "Web Developer",
-  description: `A portfolio website of ${siteOwner}`,
+  occupation: "Flutter Developer",
+  description: `Hey, I'm ${siteOwner} an experienced Flutter developer`,
   url: "http://localhost:3000/"
 }
 
@@ -30,25 +31,25 @@ export const NavItems = [
 
 export const socialLink = [
   {
-    title: "Facebook",
-    icon: <Facebook />,
-    href: "/"
+    title: "LinkedIn",
+    icon: <Linkedin />,
+    href: "https://www.linkedin.com/in/francisvic/"
+  },
+  {
+    title: "X",
+    icon: <FaSquareXTwitter className="w-6 h-6" />,
+    href: "https://x.com/vicogwa51012055"
   },
   {
     title: "Instagram",
     icon: <Instagram />,
-    href: "/"
+    href: "https://www.instagram.com/victoria.francis.39948/"
   },
   // {
   //   title: "X",
   //   icon: <Twitter />,
   //   href: "/"
   // },
-  {
-    title: "LinkedIn",
-    icon: <Linkedin />,
-    href: "https://www.linkedin.com/in/samukelo-khathi-b3830a2aa/"
-  },
   // {
   //   title: "Youtube",
   //   icon: <Youtube />,
@@ -71,7 +72,7 @@ export const infoData = [
   },
   {
     icon: <Calendar size={20} />,
-    text: "Born on 10 mar, 1998",
+    text: "Born on 18 may, 1998",
   },
   {
     icon: <GraduationCap size={20} />,

@@ -11,7 +11,7 @@ const Footer = () => {
             classNames="flex gap-x-6 mx-auto xl:mx-0 mb-4"
             iconStyles="text-primary dark:text-white/70 text-[20px] hover:text-muted-foreground dark:hover:text-primary transition-all"
           />
-          <div className="text-muted-foreground">
+          <div className="text-muted-foreground text-center">
             Copyright &copy; {siteOwner}, All rights reserved.
           </div>
         </div>

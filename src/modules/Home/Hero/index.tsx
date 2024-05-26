@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+        <div className="flex flex-col xl:flex-row justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Web Developer</h2>
+            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Flutter Developer</h2>
             <h1 className="h1">Hello, my name is {siteOwner}
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
@@ -46,8 +46,8 @@ const Hero = () => {
             <Badge
               classNames="absolute top-[80%] -left-[1rem]"
               icon={<ListTodo />}
-              endCountNum={12}
-              endCountText="k"
+              endCountNum={70}
+              // endCountText="k"
               badgeText="Projects Completed"
             />
             <Badge
@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
             <BannerImage
               classNames=" w-[510px] h-[510px] bg-no-repeat relative bg-bottom"
-              imageSrc="/hero/developer.jpeg"
+              imageSrc="/hero/vicki.jpg"
             />
           </div>
         </div>

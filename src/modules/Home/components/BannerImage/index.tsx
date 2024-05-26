@@ -12,7 +12,7 @@ const BannerImage = ({ classNames, imageSrc }: BannerImageProps) => {
       <Image
         src={imageSrc!}
         fill
-        className="rounded-full object-cover"
+        className="rounded-full shadow p-shadow object-cover"
         priority
         alt={`${siteOwner} image`}
       />

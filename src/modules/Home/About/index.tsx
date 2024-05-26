@@ -22,8 +22,8 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
             <BannerImage
-              classNames="bg-primary rounded-[40%] w-[500px] h-[500px] bg-no-repeat relative"
-              imageSrc="/hero/developer.jpeg"
+              classNames="w-[500px] h-[500px] bg-no-repeat relative"
+              imageSrc="/about/vicki-white.jpeg"
             />
           </div>
           <div className="flex-1">
@@ -68,7 +68,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <h1 className="text-primary">Language Skill</h1>
                       <div className="border-b border-border"></div>
-                      <div>English, French, Spanish, Italian</div>
+                      <div>English, Yoruba, Idoma and French </div>
                     </div>
                   </div>
                 </TabsContent>
