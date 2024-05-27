@@ -79,7 +79,7 @@
 }
 
 .badge {
-  @apply z-10 w-max h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
+  @apply z-10 w-max h-[50px] sm:h-[55px] md:h-[68px] bg-background border dark:bg-card/10 dark:backdrop-blur-[44px] shadow-2xl p-1 sm:p-2 md:p-4 rounded-[10px] flex items-center justify-center gap-x-2 sm:gap-x-4;
 }
 
 .section-title {

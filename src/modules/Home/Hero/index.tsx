@@ -9,11 +9,11 @@ import { siteOwner } from "@/constants";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
+    <section className="py-12 xl:py-24 h-full xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row justify-between gap-x-8">
+        <div className="flex flex-col-reverse gap-y-6 xl:flex-row justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Python Developer</h2>
+            <h2 className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Software Developer</h2>
             <h1 className="h1">Hello, my name is {siteOwner}
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
@@ -36,30 +36,30 @@ const Hero = () => {
               iconStyles="text-foreground text-[22px] hover:fill-primary hover:text-primary transition-all"
             />
           </div>
-          <div className="hidden xl:flex relative">
+          <div className="w-full max-w-[500px] mx-auto flex relative">
             <Badge
-              classNames="absolute top-[24%] -left-[5rem]"
+              classNames="absolute top-[65%] sm:top-[24%] -left-[1.5rem] sm:-left-[5rem]"
               icon={<Briefcase />}
               endCountNum={3}
               badgeText="Years Of Experince"
             />
             <Badge
-              classNames="absolute top-[80%] -left-[1rem]"
+              classNames="absolute top-[85%] sm:top-[80%] left-[50%] sm:-left-[1rem]"
               icon={<ListTodo />}
               endCountNum={70}
               // endCountText="k"
               badgeText="Projects Completed"
             />
             <Badge
-              classNames="absolute top-[55%] -right-8"
+              classNames="absolute opacity-0 sm:opacity-100 top-[40%] sm:top-[55%] -right-8"
               icon={<SmilePlus />}
               endCountNum={26}
               badgeText="Happy Clients"
             />
-            <div className="w-[500px] overflow-hidden h-[500px] bg-no-repeat rounded-full absolute -top-1 -right-2">
+            <div className="w-full aspect-square overflow-hidden h-[500px] bg-no-repeat rounded-full absolute -top-1 -right-2">
             </div>
             <BannerImage
-              classNames=" w-[510px] h-[510px] bg-no-repeat relative bg-bottom"
+              classNames="w-full h-full aspect-square bg-no-repeat relative bg-bottom"
               imageSrc="/hero/vicki.jpg"
             />
           </div>
