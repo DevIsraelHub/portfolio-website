@@ -240,7 +240,7 @@ export const reviewData = [
     avatar: "/reviews/avatar-1.png",
     name: "Richard Thompson",
     job: "Chef",
-    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. She transformed my outdated website into a modern masterpiece in no time. Her attention to detail and commitment to delivering excellence sets her apart from the rest. I highly recommend her to anyone in need of top-notch web development services!`,
+    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. She transformed my outdated website into a modern masterpiece in no time. Her attention to detail and commitment sets her apart from the rest. I highly recommend her to anyone in need of top-notch web development services!`,
   },
   {
     avatar: "/reviews/avatar-2.png",
@@ -252,13 +252,13 @@ export const reviewData = [
     avatar: "/reviews/avatar-3.png",
     name: "Mike Andrew",
     job: "developer",
-    review: `${siteOwner} is an incredibly talented web develioper. Her attention to detail and creative flair are unmatched. Working with Victoria was a breeze, as she listened to my needs and provided expert guidance throughout the process. I highly recommend Victoria for anyone looking to elevate their online presence.`,
+    review: `${siteOwner} is an incredibly talented web develioper. Her attention to details and creativity are unmatched. Working with Victoria was a breeze, as she listened to my needs and provided expert guidance throughout the process. I highly recommend Victoria to anyone looking to elevate their online presence.`,
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Emeka Jeff",
     job: "Gamer",
-    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. She transformed my outdated website into a modern masterpiece in no time. Her attention to detail and commitment to delivering excellence sets her apart from the rest. I highly recommend her to anyone in need of top-notch web development services!`,
+    review: `I'm beyond impressed with ${siteOwner}'s work ethic and talent. She transformed my outdated website into a modern masterpiece in no time. Her attention to detail is very good. I highly recommend her to anyone in need of top-notch web development services!`,
   },
   // {
   //   avatar: "/reviews/avatar-5.png",
