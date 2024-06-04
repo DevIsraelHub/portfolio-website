@@ -26,7 +26,7 @@ const Hero = () => {
                 </Link>
               </Button>
               <Button asChild variant="outline" className="gap-x-2 bg-transparent">
-                <Link download={true} href="/vicki-resume.pdf">
+                <Link download={true} target="_blank" rel="noopener noreferrer" href="/vicki-resume.pdf">
                   Download Cv <Download size={18} />
                 </Link>
               </Button>
