@@ -1,4 +1,4 @@
-import { Blocks, Calendar, GanttChartSquare, Gem, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, User2 } from "lucide-react";
+import { Blocks, Calendar, GanttChartSquare, Gem, Globe, GraduationCap, HomeIcon, Instagram, Linkedin, MailIcon, PhoneCall, User2 } from "lucide-react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 
@@ -41,9 +41,9 @@ export const socialLink = [
     href: "https://x.com/vicogwa51012055"
   },
   {
-    title: "Instagram",
-    icon: <Instagram />,
-    href: "https://www.instagram.com/victoria.francis.39948/"
+    title: "Bold pro",
+    icon: <Globe className="w-6 h-6" />,
+    href: "https://bold.pro/my/victoria-francis-240423222213/690r"
   },
   // {
   //   title: "X",
@@ -252,7 +252,7 @@ export const reviewData = [
     avatar: "/reviews/avatar-3.png",
     name: "Mike Andrew",
     job: "developer",
-    review: `${siteOwner} is an incredibly talented web develioper. Her attention to details and creativity are unmatched. Working with Victoria was a breeze, as she listened to my needs and provided expert guidance throughout the process. I highly recommend Victoria to anyone looking to elevate their online presence.`,
+    review: `${siteOwner} is an incredibly talented web developer. Her attention to details and creativity are unmatched. Working with Victoria was a breeze, as she listened to my needs and provided expert guidance throughout the process. I highly recommend Victoria to anyone looking to elevate their online presence.`,
   },
   {
     avatar: "/reviews/avatar-4.png",

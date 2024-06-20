@@ -11,7 +11,7 @@ import { Analytics } from "@vercel/analytics/react"
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `${site.title} | ${site.occupation} `,
+  title: `${site.title} | Software developer `,
   description: site.description,
 };
 
